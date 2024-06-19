@@ -236,69 +236,69 @@ Questions:
 
 10. Using Source Control:
 
-    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+- How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
-    Integrating Git with VS Code for Version Control
+Integrating Git with VS Code for Version Control
 
-    Visual Studio Code (VS Code) offers built-in support for Git, allowing users to manage version control directly within the editor. Here's a step-by-step guide on how to integrate Git, initialize a repository, make commits, and push changes to GitHub.
+Visual Studio Code (VS Code) offers built-in support for Git, allowing users to manage version control directly within the editor. Here's a step-by-step guide on how to integrate Git, initialize a repository, make commits, and push changes to GitHub.
 
-    1. Integrate Git with VS Code:
+1.  Integrate Git with VS Code:
 
-       Install Git:
+    Install Git:
 
-       - Download and install Git from git-scm.com.
-       - Follow the installation instructions and configure Git with your username and email:
-         . git config --global user.name "Your Name"
-         . git config --global user.email "your.email@example.com"
+    - Download and install Git from git-scm.com.
+    - Follow the installation instructions and configure Git with your username and email:
+      . git config --global user.name "Your Name"
+      . git config --global user.email "your.email@example.com"
 
-    2. Check Git Installation in VS Code:
+2.  Check Git Installation in VS Code:
 
     - Open VS Code.
     - Open Terminal in navigation bar or press "Ctrl+`" to open the integrated terminal.
     - Type "git --version" to verify Git is installed and recognized by VS Code.
 
-    3. Initialize a Git Repository:
+3.  Initialize a Git Repository:
 
-       1. Open Your Project Folder:
+    1.  Open Your Project Folder:
 
-          - Go to "File > Open Folder" and select your project folder.
+        - Go to "File > Open Folder" and select your project folder.
 
-       2. Initialize the Repository:
+    2.  Initialize the Repository:
 
-          - Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G.
-          - Click the "Initialize" Repository button.
+        - Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G.
+        - Click the "Initialize" Repository button.
 
-          - This will create a .git folder in your project directory.
+        - This will create a .git folder in your project directory.
 
-    4. Making Commits:
+4.  Making Commits:
 
-       1. Stage Changes:
+    1.  Stage Changes:
 
-          - In the Source Control view, you'll see a list of changes.
-          - Hover over a file and click the "+" icon to stage it, or click "+" next to Changes to stage all changes.
+        - In the Source Control view, you'll see a list of changes.
+        - Hover over a file and click the "+" icon to stage it, or click "+" next to Changes to stage all changes.
 
-       2. Commit Changes:
+    2.  Commit Changes:
 
-       - Enter a commit message in the message box at the top of the Source Control view.
-       - Click the "✔" (checkmark) icon to commit the staged changes.
+    - Enter a commit message in the message box at the top of the Source Control view.
+    - Click the "✔" (checkmark) icon to commit the staged changes.
 
-11. Pushing Changes to GitHub:
+5.  Pushing Changes to GitHub:
 
-    Create a GitHub Repository:
+Create a GitHub Repository:
 
-    - Go to GitHub and sign in.
-    - Click the + icon in the top-right corner and select New repository.
-    - Name your repository and click Create repository.
+- Go to GitHub and sign in.
+- Click the + icon in the top-right corner and select New repository.
+- Name your repository and click Create repository.
 
-    Add Remote Repository:
+Add Remote Repository:
 
-    - Copy the repository URL.
-    - In the VS Code terminal, add the remote repository: git remote add origin https://github.com/yourusername/your-repo.git
+- Copy the repository URL.
+- In the VS Code terminal, add the remote repository: git remote add origin https://github.com/yourusername/your-repo.git
 
-    Push Changes:
+  Push Changes:
 
-    - In the VS Code terminal, push your changes to GitHub: git push -u origin main
-    - If your default branch is master, use: git push -u origin master
+  - In the VS Code terminal, push your changes to GitHub: git push -u origin main
+  - If your default branch is master, use: git push -u origin master
 
 Submission Guidelines:
 
